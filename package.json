@@ -1,0 +1,29 @@
+{
+  "name": "crm-prospection",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.23",
+    "@heroicons/vue": "^2.1.5",
+    "@tailwindcss/forms": "^0.5.9",
+    "autoprefixer": "^10.4.20",
+    "date-fns": "^4.1.0",
+    "pinia": "^2.2.4",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.9",
+    "vue-tsc": "^2.1.6"
+  }
+}
